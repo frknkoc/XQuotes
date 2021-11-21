@@ -37,7 +37,7 @@ function Quotes() {
           <a href="https://twitter.com/" id="twet-quote">
             <span><img src={twitterIcon} alt="" /></span>
           </a>
-          <a href="https://www.tumblr.com" id="tumlr-quote">
+          <a href="https://www.tumblr.com/" id="tumlr-quote">
             <span><img src={tumblrIcon} alt="" /></span>
           </a>
         </div>
