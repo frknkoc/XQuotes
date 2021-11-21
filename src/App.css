@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(40deg, rgb(1, 25, 104), rgb(168, 168, 168));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  border-radius: 10px;
+  position: relative;
+  margin: auto auto;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: rgb(233, 233, 233);
+}
+
+@media (max-width: 1200px) {
+  #quote-box {
+    width: 420px;
+    padding: 35px 45px;
+  }
+}
+
+/* for desktops */
+
+@media (max-width: 991px) {
+  #quote-box {
+    border-radius: 8px;
+    width: 390px;
+    padding: 30px 40px;
+  }
+}
+
+/* for laptops */
+
+@media (max-width: 768px) {
+  #quote-box {
+    width: 360px;
+    padding: 25px 35px;
+  }
+}
+
+@media (max-width: 500px) {
+  #quote-box {
+    width: 270px;
+    padding: 20px 25px;
+  }
+}
+
+#text {
+  font-size: 28px;
+  font-weight: 600;
+  margin-right: 6px;
+  text-align: center;
+  width: 450px;
+  height: auto;
+  clear: both;
+}
+
+@media (max-width: 1200px) {
+  #text {
+    font-size: 26px;
+    margin-right: 5px;
+    width: 420px;
+  }
+}
+
+/* for desktops */
+
+@media (max-width: 991px) {
+  #text {
+    font-size: 24px;
+    margin-right: 4px;
+    width: 390px;
+  }
+}
+
+/* for laptops */
+
+@media (max-width: 768px) {
+  #text {
+    font-size: 22px;
+    margin-right: 3px;
+    width: 360px;
+  }
+}
+
+/* for large tablets */
+
+@media (max-width: 500px) {
+  #text {
+    font-size: 16px;
+    margin-right: 2px;
+    width: 300px;
+  }
+}
+
+/* for cellphones */
+
+#author {
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 16px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+@media (max-width: 1200px) {
+  #author {
+    padding-top: 18px;
+    font-size: 15px;
+    margin-right: 9px;
+  }
+}
+
+/* for desktops */
+
+@media (max-width: 991px) {
+  #author {
+    padding-top: 16px;
+    font-size: 14px;
+    margin-right: 8px;
+  }
+}
+
+/* for laptops */
+
+@media (max-width: 768px) {
+  #author {
+    padding-top: 14px;
+    font-size: 13px;
+    margin-right: 7px;
+  }
+}
+
+/* for large tablets */
+
+@media (max-width: 500px) {
+  #author {
+    padding-top: 12px;
+    font-size: 12px;
+    margin-right: 6px;
+  }
+}
+
+/* for cellphones */
+
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-left: 5px;
+}
+
+@media (max-width: 1200px) {
+  #buttons {
+    margin-top: 29px;
+    margin-left: 4px;
+  }
+}
+
+/* for desktops */
+
+@media (max-width: 991px) {
+  #buttons {
+    margin-top: 26px;
+    margin-left: 3px;
+  }
+}
+
+/* for laptops */
+
+@media (max-width: 768px) {
+  #buttons {
+    margin-top: 23px;
+    margin-left: 2px;
+  }
+}
+
+/* for large tablets */
+
+@media (max-width: 500px) {
+  #buttons {
+    margin-top: 20px;
+    margin-left: 1px;
+  }
+}
+
+/* for cellphones */
+
+.social-media {
+  display: flex;
+}
+
+.social-media>a {
+  margin-right: 8px;
+  background: rgba(1, 25, 104, 0.8);
+  padding: 5px 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+  .social-media>a {
+    margin-right: 7px;
+  }
+}
+
+/* for desktops */
+
+@media (max-width: 991px) {
+  .social-media>a {
+    margin-right: 6px;
+    padding: 3px 7px;
+  }
+}
+
+/* for laptops */
+
+@media (max-width: 768px) {
+  .social-media>a {
+    margin-right: 5px;
+  }
+}
+
+/* for large tablets */
+
+@media (max-width: 500px) {
+  .social-media>a {
+    margin-right: 4px;
+    padding: 2px 6px;
+  }
+}
+
+/* for cellphones */
+
+.social-media>a:hover {
+  opacity: .9;
+}
+
+.social-media>a img {
+  width: 24px;
+  padding-top: 3px;
+}
+
+@media (max-width: 991px) {
+  .social-media>a img {
+    width: 22px;
+    padding-top: 3px;
+  }
+}
+
+#new-quote {
+  background: rgba(1, 25, 104, 0.8);
+  border: none;
+  color: #fff;
+  padding: 11px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+@media (max-width: 1200px) {
+  #new-quote {
+    font-size: 14px;
+    margin-right: 9px;
+  }
+}
+
+/* for desktops */
+
+@media (max-width: 991px) {
+  #new-quote {
+    padding: 9px 15px;
+    margin-right: 8px;
+  }
+}
+
+/* for laptops */
+
+@media (max-width: 768px) {
+  #new-quote {
+    font-size: 12px;
+    margin-right: 7px;
+  }
+}
+
+/* for large tablets */
+
+@media (max-width: 500px) {
+  #new-quote {
+    padding: 9px 14px;
+    margin-right: 6px;
+  }
+}
+
+/* for cellphones */
+
+#new-quote:hover {
+  opacity: 0.9;
+}
